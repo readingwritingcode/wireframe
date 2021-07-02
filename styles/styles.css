@@ -1,0 +1,306 @@
+/*
+background-colors:
+verde: #a7fff83
+morado claro: #61608f
+morado oscuro: #49386a
+
+text-color1
+morado oscuro: #3f3e5c
+
+text-color2
+white: #ffffff
+
+text-fonts:
+headers
+font-family: 'Noto Sans JP', sans-serif;
+text
+
+h2
+h3
+h4
+p
+*/
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+* h2 {
+    font-weight:900;
+}
+
+* p {
+    line-height: 25px;
+}
+
+/*site navegation*/
+.site-nav {
+    background-color: #ffffff;
+    color: #6c5796;
+    font-weight:bolder;
+    display: flex;
+    padding: 10px 100px;
+    align-items: center;
+    font-size: 14px;
+}
+
+ul.nav-lis {
+    position: absolute;
+    right: 100px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: #6c5796;
+    text-decoration: none;
+}
+
+/*podruct main info*/
+
+.product-cont {
+    background-color: #61608f;
+    color: #ffffff; 
+    height: 450px;
+    display: flex;
+}
+
+.product-text {
+    display: inline-block;
+    width: 50%;
+    margin: 90px;
+}
+
+.product-text * {
+    margin: 15px;
+}
+
+button{
+    background-color: #67eb73;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 3px 23px;
+}
+
+/*info features*/
+.features-cont {
+    height: auto;
+    color: #61608f;
+    align-items: center;
+    margin: 100px;
+}
+
+.features-main {
+    text-align: center;
+    text-justify: distribute;
+    margin-bottom: 50px;
+}
+
+
+.features-facets {
+    width: 40%;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.feature-icon {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-text {
+    width: 60%;
+}
+
+/*facets products*/
+
+.facets {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.facets-products {
+    color: #ffffff;
+    background-color: #61608f;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.facets-products * {
+    margin: 0px;
+}
+
+.osc {
+    background-color: #58578c;
+
+}
+
+/*work*/
+.work {
+    margin: 100px;
+    height: auto;
+    align-items: center;
+}
+
+.work-text {
+    text-align: center;
+    text-justify: distribute;
+    margin: 50px;
+    color: #61608f;
+}
+
+.cont-work-facets {
+    text-align: center;
+    text-justify: distribute;
+    margin: 0px 150px;
+}
+
+.work-facets {
+    width: 22%;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+    color:#61608f;
+}
+/*contact*/
+.cont-contact {
+    height: 100px;
+    background-color: #61608f;
+    color:white;
+    display: flex;
+    align-items: center;
+
+}
+.contact-text {
+    text-align: left;
+    width: 50%;
+    margin-left: 100px;
+    padding: 15px;
+}
+
+.contact-buttons {
+    position: absolute;
+    right: 150px;
+    padding: 15px;
+}
+
+.button2 {
+    border: 1px solid black;
+    background-color: #61608f;
+    transition-duration: 0.4s;
+    /*margin: 10px*/;
+}
+
+.button2:hover {
+    background-color: #67eb73; /* Green */
+    color: white;
+    border: none;
+  }
+
+/*<!--blog info-->*/
+.content-blog{color: #61608f;
+    margin: 100px;
+    height: auto;
+
+}
+
+.blog-text{
+    text-align: center;
+    text-justify: distribute;
+    margin-bottom: 50px;
+}
+
+.entries {
+    align-items: center;
+    width: 40%;
+    margin: 20px;
+    display: inline-flex;
+}
+
+.entries-icon{
+    align-items: center;
+    margin: 10px;
+}
+
+.find-more {
+    color: white;
+    padding: 30px 0px;
+    background-color: #61608f;
+    display: flex;
+}
+
+.find-more h3 {
+    margin-left:100px ;
+}
+
+.input-find {
+    position: absolute;
+    right: 100px;
+}
+
+/*<!--metrics-->*/
+
+.content-metrics {
+    color: #61608f;
+    margin: 100px;
+    height: auto;
+}
+
+.metrics-text {
+    text-align: center;
+    text-justify: distribute;
+    margin-bottom: 50px;
+}
+
+.content-merict-type {
+    display: flex;
+    justify-content: center;
+}
+.metric-type {
+    width: 22%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/*  <!--footer-->*/
+.cont-footer {
+    display: flex;
+    align-items: center;
+    background-color: #61608f;
+    color: #ffffff;
+    height: auto;
+}
+
+.text-type1 {
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.text-type1 * {
+    margin: 5px;
+}
+.text-icon {
+    display: block ruby;
+    padding: 5px;
+    
+}
